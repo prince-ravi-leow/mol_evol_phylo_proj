@@ -1,4 +1,4 @@
-Molecular Evolution and Phylogenomics Mini-project
+# Molecular Evolution and Phylogenomics Mini-project
 
 # Data
 * Data source: https://nextstrain.org/pathogens/files
