@@ -9,7 +9,11 @@
 - Sanity check 
     - Gene calling, check gene order
 
-# Environment
-- Biopython
-- https://github.com/apcamargo/prodigal-gv
-- conda install bioconda::blast
+# Environment / software
+- Conda
+    - Biopython
+    - Prodigal-gv
+    - Prokka (osx-64)
+    - blast
+    - mafft (osx-64)
+    - iqtree3
