@@ -17,3 +17,4 @@
     - blast
     - mafft (osx-64)
     - iqtree3
+    - treetime (osx-64)
