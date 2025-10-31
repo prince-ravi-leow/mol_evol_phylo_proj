@@ -8,6 +8,9 @@
 - Filtering + deduplication
 - Sanity check 
     - Gene calling, check gene order
+- MAFFT
+- Run IQTree
+- Run treetime
 
 # Environment / software
 - Conda
