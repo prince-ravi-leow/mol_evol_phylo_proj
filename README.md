@@ -14,10 +14,26 @@
 
 # Environment / software
 - Conda
-    - Biopython
     - Prodigal-gv
-    - Prokka (osx-64)
     - blast
-    - mafft (osx-64)
+    - seqkit
     - iqtree3
+    - Prokka (osx-64)
+    - mafft (osx-64)
     - treetime (osx-64)
+- pip
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - biopython
+
+## Recreate environment Linux (x86)
+```sh
+mamba env create -f rabies_environment.yml
+mamba activate rabies
+uv pip install -r requirements.txt
+```
+
+## Recreate environment macOS (osx-arm64)
+- 

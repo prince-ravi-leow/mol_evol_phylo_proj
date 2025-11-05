@@ -1,0 +1,15 @@
+name: rabies
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - blast
+  - ipython
+  - iqtree
+  - mafft
+  - prodigal-gv
+  - prokka
+  - python=3.13
+  - seqkit
+  - treetime
+  - uv
