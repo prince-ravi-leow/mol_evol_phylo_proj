@@ -63,6 +63,9 @@ uv pip install -r requirements.txt
 
 ### Pixi
 ```sh
-pixi init rabies --channels conda-forge --channels bioconda
-
+# Install environment
+pixi init
+pixi install
+# Activate shell to run commands in
+pixi shell
 ```
