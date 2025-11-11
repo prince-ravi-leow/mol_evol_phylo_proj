@@ -47,6 +47,7 @@ unzstd data/nextstrain_rabies/sequences.fasta.zst
     - biopython
 
 ## Recreate environment
+### Conda
 ```sh
 # Linux / x86 
 mamba env create -f rabies_environment.yml
@@ -58,4 +59,10 @@ CONDA_SUBDIR=osx-64 mamba env create -f rabies_environment.yml
 mamba activate rabies
 conda config --env --set subdir osx-64
 uv pip install -r requirements.txt
+```
+
+### Pixi
+```sh
+pixi init rabies --channels conda-forge --channels bioconda
+
 ```
